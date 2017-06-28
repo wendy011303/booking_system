@@ -1,0 +1,207 @@
+﻿@import url("../for theater.css");
+body {
+    background-color: #000000;
+    width:100%;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    opacity: 0;
+}
+.header{
+    background-image: url('../image/top_area.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.header .logo_intent {
+    margin: 5px 50px 5px 50px;
+    display: table; 
+    float: left; 
+}
+.header .menu {
+    display: table; 
+    float: left; 
+}
+.header .menu ul{
+    padding: 0;
+    margin: 0;
+    clear: both;
+    display:inline-block;
+    width: 100%;
+    font-family:Microsoft JhengHei;
+}
+.header .menu li{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.header .menu a{
+    text-decoration: none;
+}
+.header .tool {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-color:#FFFFFF; 
+    border-width: 1px;
+    border-style: solid;
+    width: 10px;
+    display: table; 
+    float: left;
+}
+.header .tool ul{
+    padding: 0;
+    margin: 0;
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    font-family: Microsoft JhengHei;
+}
+.header .tool li{
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.header .tool a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.content{
+	width: 100%;
+	height: 100%;
+	font-size: 18px;
+	color: #FFF;
+	position: relative;
+	top: 20px;
+	right: 100px;
+	font-family: "微軟正黑體";
+	font-weight: bold;
+	left: 100px;
+	bottom: 20px;
+}
+
+
+.content .txt ul .omg{
+	padding: 5px;
+	margin: 0;
+	clear: both;
+	background-color: transparent;
+	display:inline-block;
+	width: 260px;
+	height:500px;
+}
+
+.content .txt ul:after{
+  clear: both;
+}
+.content .txt li{
+	list-style: none;
+	float: left;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	width:260px;
+	height: 500px;
+}
+.content .movieinfo-size{
+	font-weight: normal;	
+	width:100%;
+	height:100%;
+	}
+.content .date{
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;	
+	
+	}
+.content .tw{
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFF;	
+	}
+.content .en{
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;	
+	}
+.content .charpertitle{
+	font-family: "微軟正黑體";
+	font-size: 70px;
+	font-weight: bold;
+	color: #FFF;
+	float: left;
+	height: 50px;
+	width: 100%;
+	padding: 20px;
+	position: relative;
+	left: 2%;
+	top: 5%;
+	clear: both;
+	}
+.content .txt{
+	font-family: "微軟正黑體";
+	font-size: 36px;
+	font-weight: normal;
+	color: #FFF;
+	position: relative;
+	height: auto;
+	width: 100%;
+	padding: 20px;
+	bottom: 10%;
+	left: 3%;
+	text-align: left;
+	top: 7%;
+}
+
+.content .theaterphoto ul {
+	padding: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	background-color: transparent;
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+	left: 5%;
+	bottom: 20%;
+	position: relative;
+}
+
+.content .theaterphoto li{
+	list-style: none;
+	float: left;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	width:260px;
+	height: 500px;
+}
+
+
+.copyright{
+	margin-left: auto;
+	margin-right: auto;
+	clear: left;
+	position: relative;
+	bottom: 2%;
+	right: 0px;
+	color: #FFFFFF;
+	font-family: Microsoft JhengHei;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+}

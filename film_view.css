@@ -1,0 +1,78 @@
+.content{
+	/* background-image: url('../image/background.jpg'); */
+	background-size: contain;
+	background-repeat: no-repeat;
+    padding: 5% 5% 5% 5%;
+	width: 90%;
+	height: 100%;
+	font-size: 18px;
+	color: #FFF;
+	position: relative;
+	font-family: "微軟正黑體";
+	font-weight: bold;
+	vertical-align: middle;
+	text-align: center;
+}
+
+
+.content ul .omg{
+	padding: 0% auto;
+	margin: 0;
+	clear: both;
+	background-color: transparent;
+	display:inline-block;
+	width: 80%;
+	height:auto;
+}
+
+.content ul:after{
+  clear: both;
+}
+.content li{
+	list-style: none;
+	float: left;
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+	width: 23%;
+	height: 100%;
+}
+.content .movieinfo-size{
+	font-weight: normal;	
+	width:100%;
+	height:100%;
+}
+.content .date{
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;	
+	
+}
+.content .tw{
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	font-style: italic;
+	font-weight: bold;
+	color: #FFF;	
+}
+.content .en{
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #666;	
+}
+.content .h1{
+	font-family: "微軟正黑體";
+	font-size: 100px;
+	font-weight: bold;
+	color: #FFF;
+}
+.copyright {
+    right: 0px;
+    color: #FFFFFF;
+    font-family: Microsoft JhengHei;
+    text-decoration: none;
+}
